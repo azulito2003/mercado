@@ -1,0 +1,64 @@
+CRITICAL - 2023-10-13 05:18:39 --> Invalid file: "articulos/editar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('articulos/editar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('articulos/editar', [], true)
+ 3 APPPATH\Controllers\Articulo.php(61): view('articulos/editar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Articulo->editar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 05:20:22 --> Undefined variable $categoria
+in APPPATH\Views\articulos\actualizar.php on line 9.
+ 1 APPPATH\Views\articulos\actualizar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoria', 'C:\\wamp64\\www\\mercado\\app\\Views\\articulos\\actualizar.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\mercado\\app\\Views\\articulos\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('articulos/actualizar', [], true)
+ 5 APPPATH\Controllers\Articulo.php(61): view('articulos/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Articulo->editar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 05:25:12 --> Trying to access array offset on value of type null
+in APPPATH\Views\articulos\actualizar.php on line 9.
+ 1 APPPATH\Views\articulos\actualizar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\wamp64\\www\\mercado\\app\\Views\\articulos\\actualizar.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\mercado\\app\\Views\\articulos\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('articulos/actualizar', [], true)
+ 5 APPPATH\Controllers\Articulo.php(61): view('articulos/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Articulo->editar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-13 09:56:53 --> mysqli_sql_exception: Duplicate entry '3774827' for key 'productos.codigo' in C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\wamp64\www\mercado\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\wamp64\www\mercado\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\wamp64\www\mercado\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\wamp64\www\mercado\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\mercado\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\mercado\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\mercado\app\Controllers\Articulo.php(45): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\mercado\system\CodeIgniter.php(919): App\Controllers\Articulo->guardar()
+#9 C:\wamp64\www\mercado\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+#10 C:\wamp64\www\mercado\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\mercado\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-13 09:56:53 --> Duplicate entry '3774827' for key 'productos.codigo'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `productos` (`nombre`, `codigo`, `categoria`, `precio`, `cantidad`, `created`, `active`) VALUES (:nombre:, :codigo:, :categoria:, :precio:, :cantidad:, :created:, :active:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Articulo.php(45): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Articulo->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 10:04:20 --> Undefined array key "cantidad"
+in APPPATH\Controllers\Articulo.php on line 79.
+ 1 APPPATH\Controllers\Articulo.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'C:\\wamp64\\www\\mercado\\app\\Controllers\\Articulo.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Articulo->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

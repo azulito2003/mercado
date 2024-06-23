@@ -1,0 +1,373 @@
+ERROR - 2023-10-12 05:31:06 --> mysqli_sql_exception: Duplicate entry '1212' for key 'departamento.id' in C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\wamp64\www\mercado\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\wamp64\www\mercado\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\wamp64\www\mercado\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\wamp64\www\mercado\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\mercado\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\mercado\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\mercado\app\Controllers\Departamentoss.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\mercado\system\CodeIgniter.php(919): App\Controllers\Departamentoss->guardar()
+#9 C:\wamp64\www\mercado\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentoss))
+#10 C:\wamp64\www\mercado\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\mercado\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-12 05:31:06 --> Duplicate entry '1212' for key 'departamento.id'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `departamento` (`nombre_departamento`, `departamento`, `created`) VALUES (:nombre_departamento:, :departamento:, :created:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Departamentoss.php(30): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Departamentoss->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentoss))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-12 05:34:13 --> mysqli_sql_exception: Duplicate entry '1212' for key 'departamento.id' in C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\wamp64\www\mercado\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\wamp64\www\mercado\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\wamp64\www\mercado\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\wamp64\www\mercado\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\mercado\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\mercado\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\mercado\app\Controllers\Departamentoss.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\mercado\system\CodeIgniter.php(919): App\Controllers\Departamentoss->guardar()
+#9 C:\wamp64\www\mercado\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentoss))
+#10 C:\wamp64\www\mercado\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\mercado\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-12 05:34:13 --> Duplicate entry '1212' for key 'departamento.id'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `departamento` (`nombre_departamento`, `departamento`, `created`) VALUES (:nombre_departamento:, :departamento:, :created:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Departamentoss.php(30): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Departamentoss->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentoss))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-12 05:34:25 --> mysqli_sql_exception: Duplicate entry '1212' for key 'departamento.id' in C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\wamp64\www\mercado\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\wamp64\www\mercado\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\wamp64\www\mercado\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\wamp64\www\mercado\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\mercado\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\mercado\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\mercado\app\Controllers\Departamentoss.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\mercado\system\CodeIgniter.php(919): App\Controllers\Departamentoss->guardar()
+#9 C:\wamp64\www\mercado\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentoss))
+#10 C:\wamp64\www\mercado\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\mercado\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-12 05:34:25 --> Duplicate entry '1212' for key 'departamento.id'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `departamento` (`nombre_departamento`, `departamento`, `created`) VALUES (:nombre_departamento:, :departamento:, :created:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Departamentoss.php(30): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Departamentoss->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentoss))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 05:53:28 --> Undefined variable $cabesera
+in APPPATH\Views\departamentos\lista.php on line 1.
+ 1 APPPATH\Views\departamentos\lista.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabesera', 'C:\\wamp64\\www\\mercado\\app\\Views\\departamentos\\lista.php', 1)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\mercado\\app\\Views\\departamentos\\lista.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('departamentos/lista', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('departamentos/lista')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 05:53:52 --> Undefined variable $cabesera
+in APPPATH\Views\departamentos\lista.php on line 1.
+ 1 APPPATH\Views\departamentos\lista.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabesera', 'C:\\wamp64\\www\\mercado\\app\\Views\\departamentos\\lista.php', 1)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\mercado\\app\\Views\\departamentos\\lista.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('departamentos/lista', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('departamentos/lista')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 06:36:20 --> Undefined variable $arreglo
+in APPPATH\Views\categoria\lista.php on line 16.
+ 1 APPPATH\Views\categoria\lista.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arreglo', 'C:\\wamp64\\www\\mercado\\app\\Views\\categoria\\lista.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\mercado\\app\\Views\\categoria\\lista.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('categoria/lista', [], true)
+ 5 APPPATH\Controllers\Categorias.php(10): view('categoria/lista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Categorias->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 06:36:57 --> syntax error, unexpected token ";"
+in APPPATH\Views\categoria\lista.php on line 16.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('categoria/lista', [], true)
+ 3 APPPATH\Controllers\Categorias.php(10): view('categoria/lista', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Categorias->lista()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 06:37:26 --> Undefined variable $arreglo
+in APPPATH\Views\categoria\lista.php on line 19.
+ 1 APPPATH\Views\categoria\lista.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arreglo', 'C:\\wamp64\\www\\mercado\\app\\Views\\categoria\\lista.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\mercado\\app\\Views\\categoria\\lista.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('categoria/lista', [], true)
+ 5 APPPATH\Controllers\Categorias.php(10): view('categoria/lista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Categorias->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 06:39:27 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Categorias.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Categorias->crear()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 06:42:33 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Categorias.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Categorias->crear()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 06:43:23 --> view(): Argument #3 ($options) must be of type array, string given, called in C:\wamp64\www\mercado\app\Controllers\Categorias.php on line 17
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\Categorias.php(17): view('categoria/crear', [...], '1643')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Categorias->crear()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-12 01:09:07 --> mysqli_sql_exception: Duplicate entry '6767' for key 'categoria.categoria' in C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\wamp64\www\mercado\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\wamp64\www\mercado\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\wamp64\www\mercado\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\wamp64\www\mercado\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\mercado\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\mercado\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\mercado\app\Controllers\Categorias.php(31): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\mercado\system\CodeIgniter.php(919): App\Controllers\Categorias->guardar()
+#9 C:\wamp64\www\mercado\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#10 C:\wamp64\www\mercado\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\mercado\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-12 01:09:07 --> Duplicate entry '6767' for key 'categoria.categoria'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `categoria` (`nombre_categoria`, `categoria`, `created`, `active`) VALUES (:nombre_categoria:, :categoria:, :created:, :active:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Categorias.php(31): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Categorias->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-12 01:16:15 --> mysqli_sql_exception: Duplicate entry '9192' for key 'categoria.categoria' in C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\wamp64\www\mercado\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\wamp64\www\mercado\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\wamp64\www\mercado\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\wamp64\www\mercado\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\mercado\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\mercado\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\mercado\app\Controllers\Categorias.php(31): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\mercado\system\CodeIgniter.php(919): App\Controllers\Categorias->guardar()
+#9 C:\wamp64\www\mercado\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#10 C:\wamp64\www\mercado\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\mercado\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-12 01:16:15 --> Duplicate entry '9192' for key 'categoria.categoria'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `categoria` (`nombre_categoria`, `categoria`, `created`, `active`) VALUES (:nombre_categoria:, :categoria:, :created:, :active:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Categorias.php(31): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Categorias->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 07:16:21 --> Undefined variable $arreglos
+in APPPATH\Views\categoria\lista.php on line 15.
+ 1 APPPATH\Views\categoria\lista.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arreglos', 'C:\\wamp64\\www\\mercado\\app\\Views\\categoria\\lista.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\mercado\\app\\Views\\categoria\\lista.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('categoria/lista', [], true)
+ 5 APPPATH\Controllers\Categorias.php(10): view('categoria/lista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Categorias->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 07:42:08 --> Cannot use [] for reading
+in APPPATH\Controllers\Categorias.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-12 19:25:50 --> Array to string conversion
+in APPPATH\Views\categoria\editar.php on line 9.
+ 1 APPPATH\Views\categoria\editar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\wamp64\\www\\mercado\\app\\Views\\categoria\\editar.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\mercado\\app\\Views\\categoria\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('categoria/editar', [], true)
+ 5 APPPATH\Controllers\Categorias.php(61): view('categoria/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Categorias->editar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-12 21:31:21 --> mysqli_sql_exception: Unknown column 'departamento' in 'order clause' in C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\mercado\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\mercado\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\mercado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\mercado\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\mercado\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\mercado\app\Controllers\Articulo.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\mercado\system\CodeIgniter.php(919): App\Controllers\Articulo->lista()
+#8 C:\wamp64\www\mercado\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+#9 C:\wamp64\www\mercado\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\mercado\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-12 21:31:21 --> Unknown column 'departamento' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+WHERE `active` = :active:
+ORDER BY `departamento` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Articulo.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Articulo->lista()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-12 21:32:10 --> mysqli_sql_exception: Unknown column 'departamento' in 'order clause' in C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\mercado\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\mercado\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\mercado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\mercado\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\mercado\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\mercado\app\Controllers\Articulo.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\mercado\system\CodeIgniter.php(919): App\Controllers\Articulo->lista()
+#8 C:\wamp64\www\mercado\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+#9 C:\wamp64\www\mercado\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\mercado\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-12 21:32:10 --> Unknown column 'departamento' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+WHERE `active` = :active:
+ORDER BY `departamento` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Articulo.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Articulo->lista()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-12 21:32:12 --> mysqli_sql_exception: Unknown column 'departamento' in 'order clause' in C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\mercado\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\mercado\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\mercado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\mercado\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\mercado\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\mercado\app\Controllers\Articulo.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\mercado\system\CodeIgniter.php(919): App\Controllers\Articulo->lista()
+#8 C:\wamp64\www\mercado\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+#9 C:\wamp64\www\mercado\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\mercado\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-12 21:32:12 --> Unknown column 'departamento' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+WHERE `active` = :active:
+ORDER BY `departamento` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Articulo.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Articulo->lista()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-12 21:32:12 --> mysqli_sql_exception: Unknown column 'departamento' in 'order clause' in C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\mercado\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\mercado\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\mercado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\mercado\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\mercado\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\mercado\app\Controllers\Articulo.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\mercado\system\CodeIgniter.php(919): App\Controllers\Articulo->lista()
+#8 C:\wamp64\www\mercado\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+#9 C:\wamp64\www\mercado\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\mercado\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-12 21:32:12 --> Unknown column 'departamento' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+WHERE `active` = :active:
+ORDER BY `departamento` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Articulo.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Articulo->lista()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 21:44:36 --> Undefined variable $departamento
+in APPPATH\Views\categoria\crear.php on line 9.
+ 1 APPPATH\Views\categoria\crear.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departamento', 'C:\\wamp64\\www\\mercado\\app\\Views\\categoria\\crear.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\mercado\\app\\Views\\categoria\\crear.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('categoria/crear', [], true)
+ 5 APPPATH\Controllers\Articulo.php(21): view('categoria/crear', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Articulo->crear()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 23:26:17 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Articulo.php(76): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Articulo->actualizar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 23:27:25 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Articulo.php(75): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Articulo->actualizar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 23:29:57 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Articulo.php(75): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Articulo->actualizar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

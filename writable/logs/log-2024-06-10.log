@@ -1,0 +1,72 @@
+ERROR - 2024-06-10 20:58:55 --> mysqli_sql_exception: Table 'publicaciones.departamento' doesn't exist in C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\mercado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\mercado\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\mercado\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\mercado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\mercado\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\mercado\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\mercado\app\Controllers\Departamentoss.php(9): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\mercado\system\CodeIgniter.php(919): App\Controllers\Departamentoss->index()
+#8 C:\wamp64\www\mercado\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentoss))
+#9 C:\wamp64\www\mercado\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\mercado\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-06-10 20:58:55 --> Table 'publicaciones.departamento' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `departamento`
+WHERE `active` = :active:
+ORDER BY `id` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Departamentoss.php(9): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Departamentoss->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentoss))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-10 21:14:06 --> Invalid file: "registro_usuario.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('registro_usuario.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('registro_usuario', [], true)
+ 3 APPPATH\Controllers\RegistroUsuarioController.php(12): view('registro_usuario')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RegistroUsuarioController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroUsuarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-10 21:14:49 --> Invalid file: "registro_usuario.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('registro_usuario.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('registro_usuario', [], true)
+ 3 APPPATH\Controllers\RegistroUsuarioController.php(12): view('registro_usuario')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RegistroUsuarioController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroUsuarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-10 21:14:51 --> Invalid file: "registro_usuario.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('registro_usuario.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('registro_usuario', [], true)
+ 3 APPPATH\Controllers\RegistroUsuarioController.php(12): view('registro_usuario')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RegistroUsuarioController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroUsuarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-10 21:15:18 --> Invalid file: "registro_usuario.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('registro_usuario.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('registro_usuario', [], true)
+ 3 APPPATH\Controllers\RegistroUsuarioController.php(12): view('registro_usuario')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RegistroUsuarioController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroUsuarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-10 21:15:20 --> Invalid file: "registro_usuario.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('registro_usuario.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('registro_usuario', [], true)
+ 3 APPPATH\Controllers\RegistroUsuarioController.php(12): view('registro_usuario')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RegistroUsuarioController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroUsuarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
